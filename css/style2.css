@@ -1,0 +1,21 @@
+:root {
+    /* Light Cheer */
+    --color-scheme-1: #A7BED3;
+    --color-scheme-2: #C6E2E9;
+    --color-scheme-3: #F1FFC4;
+    --color-scheme-4: #FFCAAF;
+    --color-scheme-5: #DAB894;
+}
+
+/* Color Schemes to Try:
+    // Autumn
+    --color-scheme-1: #A4243B
+    --color-scheme-2: #D8C99B
+    --color-scheme-3: #D8973C
+    --color-scheme-4: #BD632F
+    --color-scheme-5: #273E47
+*/
+
+* {
+    font-family: ;
+}
