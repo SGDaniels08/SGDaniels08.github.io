@@ -16,16 +16,14 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 20px 20px 0 20px;
 }
-#AboutMe {
+#about-me {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
 }
-#AboutMe img {
-    width: 75%;
-}
-#ContactInfo {
-    float;
+#about-me img {
+    width: 100%;
 }
 #hero-image {
     margin: 1 rem 0;
@@ -33,29 +31,29 @@ header {
 #hero-image img {
     width: 100%;
 }
-#Projects {
+#projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-#Projects article {
+#projects article {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-#Projects h2 {
+#projects h2 {
     grid-column: 1/-1;
 }
-#Skills {
+#skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto 1fr;
 }
-#Skills h2 {
+#skills h2 {
     grid-column: 1/-1;
 }
-#Skills ul {
+#skills ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
