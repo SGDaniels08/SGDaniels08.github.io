@@ -4,3 +4,70 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    display: grid;
+    grid-template-rows: 15vh 3fr 1fr 10vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 15px;
+}
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+#about-me {
+    display: grid;
+    grid-template-columns: 40vw 1fr;
+    column-gap: 1rem;
+}
+#about-me img {
+    width: 40vw;
+}
+#about-me-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 50px;
+    row-gap: 10px;
+}
+#about-me-text ul li {
+    margin: 0 0 0 2rem;
+}
+#about-me-text :first-child {
+    grid-column: 1/-1;
+}
+#about-me-text :last-child {
+    grid-column: 1/-1;
+}
+#about-me-text :nth-child(2) {
+    grid-row: 2/4;
+}
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#projects :first-child {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+#projects article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#contact, #prof-links {
+    grid-column: 2/-1;
+}
+#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
