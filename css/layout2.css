@@ -89,6 +89,9 @@ h4 {
     flex-direction: row;
     justify-content: space-around;
 }
+#projects article img {
+    width: 100%;
+}
 #contact, #prof-links {
     grid-column: 2/-1;
 }
