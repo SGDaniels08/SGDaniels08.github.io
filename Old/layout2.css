@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: lightblue;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

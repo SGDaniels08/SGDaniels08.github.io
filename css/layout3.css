@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr 5fr;
+    grid-template-rows: 1fr 3fr 5fr;
+}
+
+#center-stripe {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#center-stripe {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+#center-stripe nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+#center-stripe h1 {
+    margin: 0 auto;
+}
+
+#bottom-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-info {
+    width: 60%;
+}
