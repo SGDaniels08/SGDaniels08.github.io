@@ -37,3 +37,7 @@ body {
 .contact-info {
     width: 60%;
 }
+
+#bottom-right {
+    overflow-y: auto;
+}

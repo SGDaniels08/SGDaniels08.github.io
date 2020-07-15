@@ -47,7 +47,10 @@ li, li a {
 #center-stripe a:link {
     text-decoration: none;
 }
+#center-stripe h1 a {
+    color: white;
+}
 
-#center-stripe a:hover {
+#center-stripe nav a:hover {
     text-decoration: underline overline;
 }
