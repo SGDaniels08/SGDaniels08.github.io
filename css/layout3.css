@@ -3,6 +3,7 @@ body {
     height: 100vh;
     grid-template-columns: 1fr 2fr 5fr;
     grid-template-rows: 1fr 3fr 5fr;
+    overflow: auto;
 }
 
 #center-stripe {
@@ -40,7 +41,9 @@ body {
 
 #bottom-right {
     margin: auto;
-    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 }
 
 .aboutme {
