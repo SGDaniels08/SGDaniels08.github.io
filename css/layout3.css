@@ -39,6 +39,8 @@ body {
 }
 
 #bottom-right {
+    height: 100%;
+    width: 100%;
     margin: auto;
     overflow-y: auto;
 }
@@ -61,4 +63,13 @@ body {
 
 .aboutme__text {
     margin-right: 1rem;
+}
+
+.interestsSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.interests, .publications {
+    margin: 2rem auto;
 }
