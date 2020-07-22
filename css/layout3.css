@@ -65,3 +65,15 @@ body {
 .aboutme__text {
     margin-right: 1rem;
 }
+
+
+.academic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.homepage__image {
+    width: 100%;
+    height: auto;
+}
