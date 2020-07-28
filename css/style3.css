@@ -101,23 +101,10 @@ h1 {
     font-size: 17pt;
 }
 
-<<<<<<< HEAD
 .academic h2 {
     font-size: 30pt;
 }
 
 .academic li {
     font-size: 15pt;
-=======
-.interests__title, .publications__title {
-    font-size: 60pt;
-    font-family: 'Lato', sans-serif;
-    text-decoration: underline;
-}
-
-.interests__listItem, .publications__listItem {
-    font-size: 25pt;
-    color: black;
-    list-style: none;
->>>>>>> 70b74eec0b53ac58d8c6f0623c9c31395fcf9ee3
 }
