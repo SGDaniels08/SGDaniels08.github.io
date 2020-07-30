@@ -80,3 +80,8 @@ body {
     width: 100%;
     height: auto;
 }
+
+.programming__bottom-right {
+    display: flex;
+    flex-direction: column;
+}
