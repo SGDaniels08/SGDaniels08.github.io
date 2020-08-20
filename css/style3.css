@@ -56,6 +56,9 @@ h1 {
     text-decoration: underline overline;
 }
 
+.program-project, .interests, .publications {
+    font-family: 'Lato', sans-serif;
+}
 .program-project__image {
     height: 400px;
     width: 700px;
@@ -111,6 +114,7 @@ h1 {
 .academic li {
     font-size: 12pt;
 }
+
 
 .hidden {
     display: none;
