@@ -1,7 +1,6 @@
 body {
     display: grid;
     grid-template-rows: 2fr 1fr 1fr;
-    /* background-image: url("/images/indoEuropeanFamilyTree.jpeg"); */
 }
 
 
@@ -43,9 +42,6 @@ main {
     margin-top: 8rem;
 }
 
-.homepage__image {
-    max-width: 90vw;
-}
 
 .aboutme {
     display: grid;
