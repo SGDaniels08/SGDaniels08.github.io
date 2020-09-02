@@ -1,51 +1,39 @@
 body {
     display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 2fr 10fr;
-    grid-template-rows: 1fr 1fr 10fr;
-    overflow: auto;
+    grid-template-rows: 1fr 3fr 1fr;
 }
 
-#header__stripe {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
 
-#header__stripe {
+header {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
+
+    position:fixed;
+    top: 0;
+    width: 100vw;
 }
 
-#header__stripe nav ul {
+header nav ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     padding-right: 2rem;
 }
 
-#header__stripe h1 {
+header h1 {
     margin-left: 3rem;
 }
 
-#bottom-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 0 2em;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
-.contact-info {
-    width: 60%;
-}
-
-#bottom-right {
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
+.homepage__image {
+    margin-top: 5rem;
+    max-width: 90vw;
 }
 
 .aboutme {
@@ -76,17 +64,8 @@ body {
     padding-top: 3rem;
 }
 
-.homepage__image {
-    width: 100%;
-    height: auto;
-}
-
 .programming__bottom-right {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-@media (max-width: 600px) {
-
 }
