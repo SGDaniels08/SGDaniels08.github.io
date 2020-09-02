@@ -43,8 +43,7 @@ header nav a:hover {
     font-family: 'Lato', sans-serif;
 }
 .program-project__image {
-    height: 400px;
-    width: 700px;
+    width: 95vw;
 }
 .aboutme {
     font-style: 'Lato', sans-serif;
