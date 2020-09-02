@@ -6,25 +6,25 @@ body {
     overflow: auto;
 }
 
-#center-stripe {
+#header__stripe {
     grid-column-start: 1;
     grid-column-end: 4;
 }
 
-#center-stripe {
+#header__stripe {
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
 }
 
-#center-stripe nav ul {
+#header__stripe nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-right: 2rem;
 }
 
-#center-stripe h1 {
+#header__stripe h1 {
     margin-left: 3rem;
 }
 
