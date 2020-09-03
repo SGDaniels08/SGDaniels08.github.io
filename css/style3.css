@@ -4,78 +4,72 @@
     padding: 0;
 }
 
-footer {
-    background-color: #007ff4;
-}
 
 header {
     background-color: #004aad;
 }
-
-
-h1 {
-    font-family: 'Lato', sans-serif;
-    color: white;
-}
-
 header li, li a {
     font-family: 'Lato', sans-serif;
     color: orangered;
 }
-
 header ul {
     list-style: none;
 }
-
 header a:link {
     text-decoration: none;
 }
-
+h1 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
 header h1 a {
     color: white;
 }
-
 header nav a:hover {
     text-decoration: underline overline;
 }
 
+
+
+
+
 .programming, .interests, .publications {
     font-family: 'Lato', sans-serif;
 }
-.program-project__image {
+.programming__project--image {
     width: 95vw;
 }
+
 .about-me {
     font-style: 'Lato', sans-serif;
 }
-
 .about-me__figure {
     background-color: lightgray;
-    padding: 1rem;
-    margin: 1rem;
     border-radius: 10%;
     border-style: solid;
     border-width: 6pt;
 }
-
 .about-me__picture {
     border-radius: 5%;
 }
-
 .about-me__Latincaption, .about-me__captionattribution, .about-me__Englishcaption {
     font-family: 'Proza Libre', sans-serif;
 }
-
 .about-me__Latincaption, .about-me__Englishcaption {
     font-style: italic;
 }
-
 .about-me__title, .about-me__text {
     font-family: 'Lato', sans-serif;
 }
 
-
-
 .hidden {
     display: none;
+}
+
+
+
+
+
+footer {
+    background-color: #007ff4;
 }
