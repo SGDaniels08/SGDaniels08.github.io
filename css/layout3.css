@@ -36,9 +36,9 @@ header h1 {
 }
 
 .spacer {
-    height: 100vh;
+    height: 300vh;
     width: 100vw;
-    background-color: blue;
+    background-image: linear-gradient(white, blue, white);
 }
 
 
@@ -65,12 +65,22 @@ header h1 {
     margin-right: 1rem;
 }
 
-.academic {
+.skills {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 3rem;
+}
+
+.skills-technical__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills section {
+    margin: 3rem auto;
 }
 
 

@@ -10,6 +10,7 @@ header {
 }
 header li, li a {
     font-family: 'Lato', sans-serif;
+    font-size: 15pt;
     color: orangered;
 }
 header ul {
@@ -66,6 +67,10 @@ header nav a:hover {
     display: none;
 }
 
+.skills h2, .skills li {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+}
 
 
 
