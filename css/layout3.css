@@ -39,10 +39,16 @@ footer img {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 8rem;
 }
 
 
+.landing-image {
+    width: 75vw;
+}
 .aboutme {
     display: grid;
     grid-template-columns: 1fr 1fr;
