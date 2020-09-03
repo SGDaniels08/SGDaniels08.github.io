@@ -39,17 +39,17 @@ header nav a:hover {
     text-decoration: underline overline;
 }
 
-.program-project, .interests, .publications {
+.programming, .interests, .publications {
     font-family: 'Lato', sans-serif;
 }
 .program-project__image {
     width: 95vw;
 }
-.aboutme {
+.about-me {
     font-style: 'Lato', sans-serif;
 }
 
-.aboutme__figure {
+.about-me__figure {
     background-color: lightgray;
     padding: 1rem;
     margin: 1rem;
@@ -58,38 +58,22 @@ header nav a:hover {
     border-width: 6pt;
 }
 
-.aboutme__picture {
-    margin: 0 auto;
-    height: 400px;
-    width: 400px;
+.about-me__picture {
     border-radius: 5%;
 }
 
-.aboutme__Latincaption, .aboutme__captionattribution {
+.about-me__Latincaption, .about-me__captionattribution, .about-me__Englishcaption {
     font-family: 'Proza Libre', sans-serif;
 }
-.aboutme__Englishcaption {
-    font-family: 'Proza Libre', sans-serif;
-}
-.aboutme__Latincaption, .aboutme__Englishcaption {
+
+.about-me__Latincaption, .about-me__Englishcaption {
     font-style: italic;
 }
 
-.aboutme__title, .aboutme__text {
+.about-me__title, .about-me__text {
     font-family: 'Lato', sans-serif;
 }
 
-.aboutme__title {
-}
-
-.aboutme__text {
-}
-
-.academic h2 {
-}
-
-.academic li {
-}
 
 
 .hidden {

@@ -45,27 +45,25 @@ main {
     margin-top: 8rem;
 }
 
-
 .landing-image {
     width: 75vw;
 }
-.aboutme {
+
+.about-me {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.aboutme__figure {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    margin: 1rem auto auto;
+.about-me__picture {
+    width: 75vw;
 }
 
-.aboutme__title {
+.about-me__title {
     margin: auto;
 }
 
-.aboutme__text {
+.about-me__text {
     margin-right: 1rem;
 }
 
