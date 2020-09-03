@@ -26,12 +26,21 @@ header h1 {
 
 
 
-main {
+
+
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 8rem;
 }
+
+.spacer {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+
 
 .landing-image {
     width: 75vw;
