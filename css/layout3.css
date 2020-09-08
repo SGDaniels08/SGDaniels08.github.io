@@ -55,7 +55,7 @@ header h1 {
     width: 75vw;
 }
 
-.programming__project, .programming__ {
+.programming__project, .programming__title {
     margin: 0 auto 5rem 1rem;
 }
 
@@ -65,6 +65,7 @@ header h1 {
     align-items: center;
     margin: 0 auto 2rem;
     width: 80vw;
+    max-width: 400px;
 }
 .about-me__picture {
     width: 90%;
