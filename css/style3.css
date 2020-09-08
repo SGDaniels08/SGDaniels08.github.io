@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 
 header {
@@ -84,4 +80,29 @@ header nav a:hover {
 
 footer {
     background-color: #007ff4;
+}
+
+
+@media (min-width: 500px) { 
+    h1 {
+        font-size: 45pt;
+    }
+    header li, li a {
+        font-size: 20pt;
+    }
+    .section-title {
+        font-size: 50pt;
+    }
+}
+
+@media (min-width: 800px) { 
+    h1 {
+        font-size: 50pt;
+    }
+    header li, li a {
+        font-size: 30pt;
+    }
+    .section-title {
+        font-size: 75pt;
+    }
 }

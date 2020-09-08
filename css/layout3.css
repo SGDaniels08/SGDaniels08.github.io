@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -10,7 +17,8 @@ header {
 header nav ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 0 1rem;
 }
 header h1 {
@@ -21,7 +29,7 @@ header h1 {
 
 
 .section-title {
-    padding-bottom: 3rem;
+    margin: 3rem auto;
 }
 
 
@@ -47,15 +55,15 @@ header h1 {
     width: 75vw;
 }
 
-.programming__project {
-    margin: 0 auto 5rem;
+.programming__project, .programming__ {
+    margin: 0 auto 5rem 1rem;
 }
 
 .about-me__figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     width: 80vw;
 }
 .about-me__picture {
@@ -76,9 +84,13 @@ header h1 {
     padding-bottom: 1rem;
 }
 
+.endquote {
+    padding-bottom: 6rem;
+}
 
-
-
+.about-me__title, .about-me__text, .about-me__about-me, .skills {
+    margin-left: 1rem;
+}
 
 
 footer {
