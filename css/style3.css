@@ -30,7 +30,7 @@ header nav a:hover {
 
 
 .section-title {
-    color: orangered;
+    color: rebeccapurple;
     font-family: "Lato", sans-serif;
     font-size: 30pt;
     text-decoration: wavy underline;
@@ -44,6 +44,7 @@ header nav a:hover {
     width: 95vw;
     border-radius: 10%;
     border: 5px solid black;
+    max-width: 900px;
 }
 
 .programming__project--title {

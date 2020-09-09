@@ -89,7 +89,7 @@ header h1 {
     padding-bottom: 6rem;
 }
 
-.about-me__title, .about-me__text, .about-me__about-me, .skills {
+.landing__title, .about-me__title, .about-me__text, .about-me__about-me, .skills {
     margin-left: 1rem;
 }
 
@@ -104,4 +104,8 @@ footer {
 footer img {
     width: 75px;
     height: 75px;
+}
+
+.programming, .about-me, .skills {
+    max-width: 900px;
 }

@@ -1,4 +1,17 @@
+// Landing Animation
+const animationContainer = document.querySelector(".animation-container");
+const animation = document.createElement("img");
+animation.classList.add = "animation";
+animationContainer.append(animation);
 
+let j = 0;
+setInterval(()=> {
+    animation.src = `/images/animation/frame${j}.png`;
+    j++;
+    if (j == 12) { j = 0; }
+}, 50);
+
+// About Me
 const latinCaption = document.querySelector(".about-me__Latincaption");
 const englishCaption = document.querySelector(".about-me__Englishcaption");
 

@@ -1,0 +1,13 @@
+.animation-container {
+    width: 100vw;
+    height: 300px;
+    /* background-color: lavender; */
+    position: relative;
+}
+
+.animation {
+    width: 80px;
+    height: 85px;
+    /* background-image: url(/images/animation/frame0.png); */
+    position: absolute;
+}
