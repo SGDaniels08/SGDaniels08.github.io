@@ -1,14 +1,16 @@
 // Landing Animation
 const animationContainer = document.querySelector(".animation-container");
-const animation = document.createElement("img");
-animation.classList.add = "animation";
-animationContainer.append(animation);
+const animation = document.querySelector(".animation");
 
 let j = 0;
+let pos = -30;
 setInterval(()=> {
     animation.src = `/images/animation/frame${j}.png`;
     j++;
+    pos += 3;
     if (j == 12) { j = 0; }
+    animation.style.left = `${pos}px`;
+    animation.style.top = "100px";
 }, 50);
 
 // About Me
