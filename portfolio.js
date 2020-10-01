@@ -89,3 +89,7 @@ aboutme.addEventListener("mouseout", ()=> {
     latinCaption.classList.toggle("hidden");
     englishCaption.classList.toggle("hidden"); 
 });
+aboutme.addEventListener("touchstart", ()=> {
+        latinCaption.classList.toggle("hidden");
+        englishCaption.classList.toggle("hidden"); 
+});
