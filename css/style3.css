@@ -98,28 +98,28 @@
 }
 
 .header-dark {
-    background-color: #004aad;
+    background-color: #255da5;
 }
 
 .header__listItemAnchor-dark {
     font-family: 'Lato', sans-serif;
     font-size: 15pt;
-    color: orangered;
+    color: rgb(168, 57, 17);
     font-weight: bold;
 }
 
 .header__titleAnchor-dark {
     font-family: 'Lato', sans-serif;
-    color: white;
+    color: rgb(173, 170, 170);
     font-size: 35pt;
 }
 
-.spacer1-dark {
-    background-image: linear-gradient(#121212, blue,#121212);
+.spacer1-dark, .spacer2-dark, .spacer3-dark, .spacer4-dark {
+    background-image: linear-gradient(#121212, rgb(24, 150, 24),#121212);
 }
 
 .section-title-dark {
-    color: rebeccapurple;
+    color: rgb(115, 80, 151);
     font-family: "Lato", sans-serif;
     font-size: 30pt;
     text-decoration: wavy underline;
@@ -128,17 +128,17 @@
 .programming__project--image-dark {
     width: 95vw;
     border-radius: 10%;
-    border: 5px solid black;
+    border: 5px solid rgb(25, 139, 72);
     max-width: 900px;
 }
 
 .about-me__figure-dark {
-    background-color: lightgray;
+    background-color: darkgray;
     border-radius: 10%;
     border-style: solid;
     border-width: 6pt;
 }
 
 .footer-dark {
-    background-color: #007ff4;
+    background-color: #04539e;
 }
