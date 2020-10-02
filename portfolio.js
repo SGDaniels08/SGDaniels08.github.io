@@ -98,20 +98,22 @@ aboutme.addEventListener("touchstart", ()=> {
 
 const body = document.querySelector(".body");
 const header = document.querySelector(".header");
-const header__listItemAnchor = document.querySelector(".header__listItemAnchor");
+const header__listItemAnchor = document.querySelectorAll(".header__listItemAnchor");
 const header__titleAnchor = document.querySelector(".header__titleAnchor");
-const spacer1 = document.querySelector("#spacer1");
-const spacer2 = document.querySelector("#spacer2");
-const spacer3 = document.querySelector("#spacer3");
-const spacer4 = document.querySelector("#spacer4");
+const spacer1 = document.querySelector(".spacer1");
+const spacer2 = document.querySelector(".spacer2");
+const spacer3 = document.querySelector(".spacer3");
+const spacer4 = document.querySelector(".spacer4");
 const footer = document.querySelector(".footer");
 
-const darkmodeButton = document.querySelector("#darkmode-button");
+const darkmodeButton = document.querySelector(".darkmode-button");
 
 darkmodeButton.addEventListener("click", ()=> {
     body.classList.toggle("body-dark");
     header.classList.toggle("header-dark");
-    header__listItemAnchor.classList.toggle("header__listItemAnchor-dark");
+    header__listItemAnchor.forEach(element => {
+        element.classList.toggle("header__listItemAnchor-dark");
+    });
     header__titleAnchor.classList.toggle("header__titleAnchor-dark");
     spacer1.classList.toggle("spacer1-dark");
     spacer2.classList.toggle("spacer2-dark");

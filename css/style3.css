@@ -64,7 +64,7 @@
 .about-me__picture {
     border-radius: 5%;
 }
-.about-me__Latincaption, .about-me__captionattribution, .about-me__Englishcaption {
+.about-me__Latincaption, .about-me__captionAttribution, .about-me__Englishcaption {
     font-family: 'Proza Libre', sans-serif;
 }
 .about-me__Latincaption, .about-me__Englishcaption {
@@ -99,27 +99,33 @@
 
 .header-dark {
     background-color: #255da5;
+    /* background-color: #03da76; */
 }
 
 .header__listItemAnchor-dark {
     font-family: 'Lato', sans-serif;
     font-size: 15pt;
-    color: rgb(168, 57, 17);
+    color: rgb(197, 65, 17);
     font-weight: bold;
 }
 
 .header__titleAnchor-dark {
     font-family: 'Lato', sans-serif;
-    color: rgb(173, 170, 170);
+    color: rgb(204, 202, 202);
     font-size: 35pt;
 }
 
+.text-darkmode {
+    color: rgb(204,202,202);
+}
+
 .spacer1-dark, .spacer2-dark, .spacer3-dark, .spacer4-dark {
-    background-image: linear-gradient(#121212, rgb(24, 150, 24),#121212);
+    /* background-image: linear-gradient(#121212, rgb(24, 150, 24),#121212); */
+    background-image: linear-gradient(#121212, hsl(240, 34%, 50%), #121212);
 }
 
 .section-title-dark {
-    color: rgb(115, 80, 151);
+    color: rgb(185, 130, 168);
     font-family: "Lato", sans-serif;
     font-size: 30pt;
     text-decoration: wavy underline;
