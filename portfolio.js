@@ -93,3 +93,18 @@ aboutme.addEventListener("touchstart", ()=> {
         latinCaption.classList.toggle("hidden");
         englishCaption.classList.toggle("hidden"); 
 });
+
+// Dark Mode
+
+const body = document.querySelector("#body");
+const spacer1 = document.querySelector("#spacer1");
+const spacer2 = document.querySelector("#spacer2");
+const spacer3 = document.querySelector("#spacer3");
+const spacer4 = document.querySelector("#spacer4");
+
+const darkmodeButton = document.querySelector("#darkmode-button");
+
+darkmodeButton.addEventListener("click", ()=> {
+    body.classList.toggle("body-dark");
+    spacer1.classList.toggle("spacer1-dark");
+});

@@ -1,33 +1,34 @@
+/*   Normal / "Light" Mode    */
 
 
-
-header {
+.header {
     background-color: #004aad;
 }
-header li, li a {
+.header__listItemAnchor {
     font-family: 'Lato', sans-serif;
     font-size: 15pt;
     color: orangered;
     font-weight: bold;
 }
-header ul {
+.header__list {
     list-style: none;
 }
-header a:link {
+.header__listItemAnchor:link {
     text-decoration: none;
 }
-h1 {
+.header__titleAnchor {
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 35pt;
 }
-header h1 a {
-    color: white;
-}
-header nav a:hover {
+
+.header__listItemAnchor:hover {
     text-decoration: underline overline;
 }
 
+.spacer1, .spacer2, .spacer3, .spacer4 {
+    background-image: linear-gradient(white, blue, white);
+}
 
 .section-title {
     color: rebeccapurple;
@@ -82,46 +83,62 @@ header nav a:hover {
     list-style: none;
 }
 
-
-
-
-footer {
+.footer {
     background-color: #007ff4;
 }
 
-
-@media (min-width: 500px) { 
-    h1 {
-        font-size: 45pt;
-    }
-    header li, li a {
-        font-size: 20pt;
-    }
-    .section-title {
-        font-size: 50pt;
-    }
-    .programming__project--title {
-        font-size: 20pt;
-    }
-    .programming__project--image {
-        border: 10px solid black;
-    }
+.darkmode-button {
+    background-color: navajowhite;
 }
 
-@media (min-width: 800px) { 
-    h1 {
-        font-size: 50pt;
-    }
-    header li, li a {
-        font-size: 30pt;
-    }
-    .section-title {
-        font-size: 75pt;
-    }
-    .programming__project--title {
-        font-size: 30pt;
-    }
-    .programming__project--image {
-        border: 20px solid black;
-    }
+/*   Dark Mode    */
+
+.body-dark {
+    background-color: #121212;
+}
+
+.header-dark {
+    background-color: #004aad;
+}
+
+.header__listItemAnchor-dark {
+    font-family: 'Lato', sans-serif;
+    font-size: 15pt;
+    color: orangered;
+    font-weight: bold;
+}
+
+.header__titleAnchor-dark {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 35pt;
+}
+
+.spacer1-dark {
+    background-image: linear-gradient(#121212, blue,#121212);
+}
+
+.section-title-dark {
+    color: rebeccapurple;
+    font-family: "Lato", sans-serif;
+    font-size: 30pt;
+    text-decoration: wavy underline;
+}
+
+.programming__project--image-dark {
+    width: 95vw;
+    border-radius: 10%;
+    border: 5px solid black;
+    max-width: 900px;
+}
+
+.about-me__figure-dark {
+    background-color: lightgray;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 6pt;
+}
+
+.footer-dark {
+    background-color: #007ff4;
 }

@@ -17,14 +17,14 @@
       type="text/css"
     />
   </head>
-  <body>
-    <header>
-      <h1><a href="#top">Shawn Daniels</a></h1>
+  <body id="body" class="body">
+    <header class="header">
+      <h1><a class="header__titleAnchor" href="#top">Shawn Daniels</a></h1>
       <nav>
-        <ul>
-          <li><a href="#programming">Programming</a></li>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#skills">Skills</a></li>
+        <ul class="header__list">
+          <li><a class="header__listItemAnchor" href="#programming">Programming</a></li>
+          <li><a class="header__listItemAnchor" href="#about-me">About Me</a></li>
+          <li><a class="header__listItemAnchor" href="#skills">Skills</a></li>
         </ul>
       </nav>
     </header>
@@ -36,7 +36,7 @@
         </div>
       </div>
 
-      <div class="spacer spacer1"></div>
+      <div id="spacer1" class="spacer1"></div>
 
       <!-- Programming -->
       <div class="programming">
@@ -95,7 +95,7 @@
         </article>
       </div>
 
-      <div class="spacer spacer2"></div>
+      <div id="spacer2" class="spacer2"></div>
 
       <!-- About Me -->
       <div class="about-me">
@@ -130,7 +130,7 @@
         </p>
       </div>
 
-      <div class="spacer spacer3"></div>
+      <div id="spacer3" class="spacer3"></div>
 
       <!-- Skills (include Sortes) -->
       <div class="skills">
@@ -184,11 +184,11 @@
           </ul>
         </section>
       </div>
-      <div class="spacer spacer4"></div>
+      <div id="spacer4" class="spacer4"></div>
       <p class="endquote">'The best thing for being sad,' replied Merlyn, beginning to puff and blow, 'is to learn something.' --The Once and Future King</p>
 
     </main>
-    <footer>
+    <footer id="footer" class="footer">
       <div class="contact-info">
         <a href="mailto:SGDaniels08@gmail.com" target="_blank"
           ><img src="/images/email.png" alt="SGDaniels08@gmail.com"
@@ -203,6 +203,9 @@
         <a href="https://github.com/SGDaniels08" target="_blank"
           ><img src="/images/github.png" alt="http://github.com/SGDaniels08"
         /></a>
+      </div>
+      <div id="darkmode-button" class="darkmode-button">
+
       </div>
     </footer>
     <script src="/portfolio.js"></script>
